@@ -1,0 +1,13 @@
+#1
+git add "ashis.txt"
+git commit -m 'comment'
+git push origin master
+
+#2
+git reset HEAD~1 // reset previous commit
+
+#3
+git add . // add all the untracked files
+
+#4
+git pull --rebase //pull the files from master (force lattest file)
